@@ -1,0 +1,23 @@
+[
+    {
+        "id": "6f9b4ff6-5e6f-4c42-991f-d88e98735495",
+        "origin": "New York",
+        "destination": "Los Angeles",
+        "departureTime": "2024-10-01T10:00:00Z",
+        "arrivalTime": "2024-10-01T13:00:00Z"
+    },
+    {
+        "id": "6f9b4ff6-5e6f-4c42-991f-d88e98735492",
+        "origin": "London",
+        "destination": "Lviv",
+        "departureTime": "2024-10-02T14:00:00Z",
+        "arrivalTime": "2024-10-02T15:30:00Z"
+    },
+    {
+        "id": "6f9b4ff6-5e6f-4c42-991f-d88e98735490",
+        "origin": "Washington",
+        "destination": "Paris",
+        "departureTime": "2024-10-06T14:00:00Z",
+        "arrivalTime": "2024-10-06T16:30:00Z"
+    }
+]

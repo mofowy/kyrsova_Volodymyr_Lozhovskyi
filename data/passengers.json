@@ -1,0 +1,32 @@
+[
+    {
+        "id": "passenger1",
+        "firstname": "John",
+        "lastname": "Doe",
+        "patronymic": "Michael",
+        "birthdate": "1980-01-01",
+        "series": "AB123456",
+        "username": "johndoe",
+        "password": "123"
+    },
+    {
+        "id": "passenger2",
+        "firstname": "Jane",
+        "lastname": "Smith",
+        "patronymic": "Ann",
+        "birthdate": "1990-02-02",
+        "series": "CD789012",
+        "username": "jane",
+        "password": "456"
+    },
+    {
+        "id": "495b142a-a4ed-40ec-9102-cfe731e7d1f2",
+        "username": "volodymyr",
+        "password": "2005",
+        "firstname": "",
+        "lastname": "",
+        "patronymic": "",
+        "birthdate": "",
+        "series": ""
+    }
+]

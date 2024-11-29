@@ -1,0 +1,49 @@
+{% extends "__layout.html" %}
+{% block layout %}
+<div class="block" style="margin: 15% 25%;">
+    <div class="flight-info" style="background: gray;">
+        <div class="row" style="display: flex;">
+            <div style="width: 0; flex-grow: 1;">Номер рейса</div>
+            <div style="width: 0; flex-grow: 1;">{{context.id}}</div>
+        </div>
+        <div class="row" style="display: flex;">
+            <div style="width: 0; flex-grow: 1;">Назва компанії</div>
+            <div style="width: 0; flex-grow: 1;">{{context.company}}</div>
+        </div>
+        <div class="row" style="display: flex;">
+            <div style="width: 0; flex-grow: 1;">Маршрут</div>
+            <div style="width: 0; flex-grow: 1;">{{context.path}}</div>
+        </div>
+        <div class="row" style="display: flex;">
+            <div style="width: 0; flex-grow: 1;">Аеропорт відправлення</div>
+            <div style="width: 0; flex-grow: 1;">{{context.from}}</div>
+        </div>
+        <div class="row" style="display: flex;">
+            <div style="width: 0; flex-grow: 1;">Аеропорт прибуття</div>
+            <div style="width: 0; flex-grow: 1;">{{context.to}}</div>
+        </div>
+
+        <div class="row" style="display: flex;">
+            <div style="width: 0; flex-grow: 1;">Час відправлення</div>
+            <div style="width: 0; flex-grow: 1;">{{context.timefrom}}</div>
+        </div>
+        <div class="row" style="display: flex;">
+            <div style="width: 0; flex-grow: 1;">Час прибуття</div>
+            <div style="width: 0; flex-grow: 1;">{{context.timeto}}</div>
+        </div>
+
+        <div class="row" style="display: flex;">
+            <div style="width: 0; flex-grow: 1;">Пасажир</div>
+            <div style="width: 0; flex-grow: 1;">{{context.firstname}} {{context.lastname}} {{context.patronymic}}</div>
+        </div>
+        <div class="row text-center">
+            <button onclick="start_registration()"class="btn btn-primary text-center" type="button">Продовжити</button>
+        </div>
+    </div>
+</div>
+<script>
+    function start_registration() {
+            window.location = '/route?flight={{context.id}}';
+        }
+</script>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "__layout.html" %}
+{% block layout %}
+<div class="block" style="margin: 15% 25%;">
+    <h2>Choose a Route</h2>
+    <form id="routeForm">
+        <div class="form-group">
+            <label for="flight">Select a Flight</label>
+            <select class="form-control" id="flight" name="flight">
+                {% for flight in flights %}
+                <option value="{{ flight.id }}">{{ flight.origin }} - {{ flight.destination }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <button type="button" class="btn btn-primary" onclick="redirectToPassport()">Submit</button>
+    </form>
+</div>
+<script>
+    function redirectToPassport() {
+        const flightId = document.getElementById('flight').value;
+        window.location.href = `/passport?flight=${flightId}`;
+    }
+</script>
+{% endblock %}

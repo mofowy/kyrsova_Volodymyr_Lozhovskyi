@@ -1,0 +1,23 @@
+[
+    {
+        "id": "6f9b4ff6-5e6f-4c42-991f-d88e98735495",
+        "flightId": "6f9b4ff6-5e6f-4c42-991f-d88e98735495",
+        "passengerId": "passenger1",
+        "isRegistered": true,
+        "seat": 51
+    },
+    {
+        "id": "6f9b4ff6-5e6f-4c42-991f-d88e98735495",
+        "flightId": "6f9b4ff6-5e6f-4c42-991f-d88e98735495",
+        "passengerId": "passenger2",
+        "isRegistered": true,
+        "seat": 54
+    },
+    {
+        "id": "4cf20d20-fcab-4421-8f41-17ad94a8772b",
+        "passengerId": "495b142a-a4ed-40ec-9102-cfe731e7d1f2",
+        "flightId": null,
+        "isRegistered": false,
+        "seat": null
+    }
+]
